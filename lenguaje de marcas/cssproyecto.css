@@ -1,0 +1,208 @@
+.fondo{
+    background-image:url(imagnestilo/fondo);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    height: 100vh;
+background-attachment: fixed;
+}
+
+.menu{
+  background: rgba(34, 85, 34, 0.9); 
+  height: 60px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  padding: 10px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+
+}
+
+
+.botones {
+  background: #4CAF50; 
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  gap: 20px
+}
+
+
+
+.boton{
+  background: #388E3C;
+  transform: scale(1.1); 
+  gap: 20px
+}
+
+
+.buscador {
+    position: absolute;
+    top: 15%; 
+    left: 50%; 
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -25%;
+  
+}
+
+
+.input-busqueda {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+
+
+
+.login-container {
+    background-color: rgb(95, 114, 102);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; 
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    margin-bottom: 20px;
+
+  }
+  
+  .input-field {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #39a554;
+    color: rgb(39, 38, 38);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-btn:hover {
+    background: #f3f7f3;
+  }
+  
+  .help {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #b3b3b3;
+  }
+  .login-btn1 {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background:grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .carousel {
+    width: 80vw; 
+    height: 400px; 
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.carousel-images {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    animation: slide 12s infinite;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(0%); }
+
+    30% { transform: translateX(-25%); }
+    50% { transform: translateX(-25%); }
+
+    55% { transform: translateX(-50%); }
+    75% { transform: translateX(-50%); }
+
+    80% { transform: translateX(-75%); }
+    100% { transform: translateX(-75%); }
+}
+
+
+a{
+  color: rgb(245, 239, 239);
+}
+
+table{
+  width: 80%; 
+  margin: 20px auto; 
+  border-collapse: collapse; 
+  border: 3px solid #34495E; 
+  background-color: rgb(125, 226, 125);
+
+  
+}
+
+
+
+
+
+th{
+  padding: 10px;  
+  text-align: center; 
+  border: 1px solid #34495E; 
+  background-color: rgb(1, 19, 6);
+}
+
+img{
+  width: 400px;
+  height: 350px;
+}
+
+
+tr{
+  background-color: #4CAF50; 
+  color: white;
+}
